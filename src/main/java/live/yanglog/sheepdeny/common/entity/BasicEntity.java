@@ -1,4 +1,4 @@
-package live.yanglog.sheepdeny.common;
+package live.yanglog.sheepdeny.common.entity;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;
