@@ -1,9 +1,18 @@
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://133.186.241.167:3306/nhn_academy_275?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
     username: nhn_academy_275
     password: lY0ueqrl!
+    type: org.apache.commons.dbcp2.BasicDataSource
+    dbcp2:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      initial-size: 200
+      max-total: 200
+      max-idle: 200
+      min-idle: 200
+      max-wait-millis: 2000
+      validation-query: select 1
+      test-on-borrow: true
 
   jpa:
     show-sql: true

@@ -5,3 +5,4 @@ spring:
     name: yanglog
   profiles:
     active: dev
+
