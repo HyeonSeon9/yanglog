@@ -1,6 +1,6 @@
-package live.yanglog.sheepdeny.blog;
+package live.yanglog.sheepdeny.blog.entity;
 
-import live.yanglog.sheepdeny.common.BasicEntity;
+import live.yanglog.sheepdeny.common.entity.BasicEntity;
 import live.yanglog.sheepdeny.member.entity.Member;
 import lombok.AccessLevel;
 import lombok.Getter;
